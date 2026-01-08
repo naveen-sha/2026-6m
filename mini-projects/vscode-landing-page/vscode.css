@@ -26,4 +26,7 @@ body{
 .text{
     font-family: sans-serif;
 }
-
+.link{
+    background-color: gray;
+    color: red;
+}
