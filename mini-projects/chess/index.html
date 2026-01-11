@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chess UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/chess.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h1>Chess</h1>
+
+      <div class="player">
+        <span>♚</span>
+        <p>Black</p>
+      </div>
+
+      <div class="player active">
+        <span>♔</span>
+        <p>White</p>
+      </div>
+
+      <button class="btn">New Game</button>
+    </aside>
+
+    <main class="board-wrapper">
+      <div class="board">
+        <!-- Rank 8 -->
+        <div class="square dark">♜</div>
+        <div class="square light">♞</div>
+        <div class="square dark">♝</div>
+        <div class="square light">♛</div>
+        <div class="square dark">♚</div>
+        <div class="square light">♝</div>
+        <div class="square dark">♞</div>
+        <div class="square light">♜</div>
+
+        <!-- Rank 7 -->
+        <div class="square light">♟</div>
+        <div class="square dark">♟</div>
+        <div class="square light">♟</div>
+        <div class="square dark">♟</div>
+        <div class="square light">♟</div>
+        <div class="square dark">♟</div>
+        <div class="square light">♟</div>
+        <div class="square dark">♟</div>
+
+        <!-- Empty ranks -->
+        <!-- Rank 6 -->
+        <div class="square dark"></div><div class="square light"></div><div class="square dark"></div><div class="square light"></div>
+        <div class="square dark"></div><div class="square light"></div><div class="square dark"></div><div class="square light"></div>
+
+        <!-- Rank 5 -->
+        <div class="square light"></div><div class="square dark"></div><div class="square light"></div><div class="square dark"></div>
+        <div class="square light"></div><div class="square dark"></div><div class="square light"></div><div class="square dark"></div>
+
+        <!-- Rank 4 -->
+        <div class="square dark"></div><div class="square light"></div><div class="square dark"></div><div class="square light"></div>
+        <div class="square dark"></div><div class="square light"></div><div class="square dark"></div><div class="square light"></div>
+
+        <!-- Rank 3 -->
+        <div class="square light"></div><div class="square dark"></div><div class="square light"></div><div class="square dark"></div>
+        <div class="square light"></div><div class="square dark"></div><div class="square light"></div><div class="square dark"></div>
+
+        <!-- Rank 2 -->
+        <div class="square dark">♙</div>
+        <div class="square light">♙</div>
+        <div class="square dark">♙</div>
+        <div class="square light">♙</div>
+        <div class="square dark">♙</div>
+        <div class="square light">♙</div>
+        <div class="square dark">♙</div>
+        <div class="square light">♙</div>
+
+        <!-- Rank 1 -->
+        <div class="square light">♖</div>
+        <div class="square dark">♘</div>
+        <div class="square light">♗</div>
+        <div class="square dark">♕</div>
+        <div class="square light">♔</div>
+        <div class="square dark">♗</div>
+        <div class="square light">♘</div>
+        <div class="square dark">♖</div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
