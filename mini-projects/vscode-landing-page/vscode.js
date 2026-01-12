@@ -1,1 +1,0 @@
-let but=document.getElementById('contain')
